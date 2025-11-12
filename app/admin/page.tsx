@@ -28,7 +28,6 @@ interface Article {
 export default function AdminPage() {
   const [articles, setArticles] = useState<Article[]>([]);
   const [loading, setLoading] = useState(true);
-  const [syncing, setSyncing] = useState(false);
   const [filter, setFilter] = useState<'all' | 'published' | 'draft'>('all');
   const [stats, setStats] = useState({
     total: 0,
@@ -61,20 +60,6 @@ export default function AdminPage() {
       console.error('Error fetching articles:', error);
     } finally {
       setLoading(false);
-    }
-  }
-
-  async function syncRSS() {
-    if (!confirm('Voulez-vous synchroniser les flux RSS ? Cela peut prendre quelques minutes.')) {
-      return;
-    }
-
-    setSyncing(true);
-    try {
-      // En production, vous voudrez créer une route API qui appelle le script
-      alert('Pour synchroniser les RSS, exécutez : npm run rss:sync\n\nVous pouvez aussi automatiser cela avec un cron job.');
-    } finally {
-      setSyncing(false);
     }
   }
 
