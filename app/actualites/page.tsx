@@ -28,11 +28,20 @@ interface ArticleSummary {
   category?: CategorySummary | null;
   tags?: Array<{ name: string; slug: string }>;
 }
-
+ 
 export const metadata = {
   title: "Actualités",
   description: "Toutes les actualités du FC Bayern Munich en temps réel",
 };
+
+function slugify(text: string) {
+  return text
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/(^-|-$)+/g, "");
+}
 
 async function getArticles(baseUrl: string) {
   try {
@@ -51,7 +60,45 @@ async function getArticles(baseUrl: string) {
     console.error('Error fetching articles:', error);
     // Fallback vers les données locales en cas d'erreur
     const articlesData = await import('@/lib/data/articles.json');
-    return articlesData.default as ArticleSummary[];
+    return (articlesData.default ?? []).map((article: any, index: number) => {
+      const authorName =
+        typeof article.author === "string"
+          ? article.author
+          : article.author?.name ?? "Rédaction Media Bayern";
+
+      const categoryName = article.category ?? null;
+      const categorySlug = categoryName ? slugify(categoryName) : null;
+
+      return {
+        id: article.id ?? `legacy-${index}`,
+        title: article.title ?? "Article",
+        slug: article.slug ?? slugify(`${article.title ?? "article"}-${index}`),
+        excerpt: article.excerpt ?? "",
+        coverImage: article.coverImage ?? null,
+        author: authorName,
+        publishedAt: article.date ?? undefined,
+        date: article.date ?? undefined,
+        views: typeof article.views === "number" ? article.views : 0,
+        featured: Boolean(article.featured),
+        category: categoryName
+          ? {
+              id: categorySlug ?? `cat-${index}`,
+              name: categoryName,
+              slug: categorySlug ?? `cat-${index}`,
+              color: "#E21C2A",
+              icon: null,
+              articlesCount: undefined,
+            }
+          : null,
+        tags: (article.tags ?? []).slice(0, 5).map((tag: any, tagIndex: number) => {
+          const tagName = typeof tag === "string" ? tag : tag?.name ?? `Tag ${tagIndex + 1}`;
+          return {
+            name: tagName,
+            slug: slugify(tagName) || `tag-${tagIndex}`,
+          };
+        }),
+      } satisfies ArticleSummary;
+    });
   }
 }
 
@@ -142,7 +189,7 @@ export default async function ActualitesPage() {
               >
                 {category.icon && <span className="mr-2">{category.icon}</span>}
                 {category.name}
-                {category.articlesCount > 0 && (
+                {category.articlesCount && category.articlesCount > 0 && (
                   <span className="ml-2 text-xs opacity-60">
                     ({category.articlesCount})
                   </span>
@@ -197,7 +244,7 @@ export default async function ActualitesPage() {
               </div>
               <div className="p-4">
                 <div className="flex gap-2 mb-2 flex-wrap">
-                  {article.tags?.slice(0, 2).map((tag) => (
+                  {article.tags?.slice(0, 2).map((tag: { name: string; slug?: string }) => (
                     <span
                       key={tag.slug ?? `${tag.name}-${article.id}`}
                       className="text-xs px-2 py-1 bg-gray-100 dark:bg-gray-800 rounded-full text-gray-600 dark:text-gray-400"
