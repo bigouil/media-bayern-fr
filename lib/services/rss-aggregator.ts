@@ -19,11 +19,13 @@ const turndownService = new TurndownService({
   codeBlockStyle: 'fenced',
 });
 
-interface ParserItem extends Parser.Item {
-  enclosure?: { url?: string };
+type ParserItem = Parser.Item & {
+  enclosure?: Parser.Enclosure | { url?: string };
   mediaContent?: { $?: { url?: string } };
   contentEncoded?: string;
-}
+  content?: string;
+  description?: string;
+};
 
 export interface RSSArticle {
   title: string;

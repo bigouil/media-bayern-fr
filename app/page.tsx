@@ -101,7 +101,10 @@ function resolveBaseUrl(requestHeaders: HeadersList) {
   return "http://localhost:3000";
 }
 
-async function fetchArticles(baseUrl: string, params: { featured?: boolean; limit: number }) {
+async function fetchArticles(
+  baseUrl: string,
+  params: { featured?: boolean; limit: number }
+): Promise<ArticleCard[] | null> {
   try {
     const url = new URL("/api/articles", baseUrl);
     url.searchParams.set("limit", params.limit.toString());
@@ -155,8 +158,9 @@ export default async function HomePage() {
     fetchArticles(baseUrl, { limit: 6 }),
   ]);
 
-  const featuredArticles = featuredData && featuredData.length > 0 ? featuredData : fallbackFeatured;
-  const recentArticles =
+  const featuredArticles: ArticleCard[] =
+    featuredData && featuredData.length > 0 ? featuredData : fallbackFeatured;
+  const recentArticles: ArticleCard[] =
     recentData && recentData.length > 0
       ? recentData
       : fallbackArticles.slice(0, 6).map((article) => ({ ...article, readTime: article.readTime }));

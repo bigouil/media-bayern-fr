@@ -103,14 +103,14 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
   const content = typeof article.content === "string" ? article.content : "";
   const paragraphs = content
     .split(/\n{2,}/)
-    .map((paragraph) => paragraph.trim())
+    .map((paragraph: string) => paragraph.trim())
     .filter(Boolean);
 
   return (
     <article className="container mx-auto px-4 py-8 max-w-4xl">
       <header className="mb-8">
-        <div className="flex flex-wrap gap-2 mb-4">
-          {tags.map((tag) => (
+          <div className="flex flex-wrap gap-2 mb-4">
+            {tags.map((tag: { name: string; slug: string }) => (
             <span
               key={tag.slug}
               className="text-xs px-3 py-1 bg-gray-100 dark:bg-gray-800 rounded-full font-medium"
@@ -167,7 +167,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
 
         <div className="space-y-4 text-gray-700 dark:text-gray-300 whitespace-pre-wrap">
           {paragraphs.length > 0
-            ? paragraphs.map((paragraph, index) => <p key={index}>{paragraph}</p>)
+            ? paragraphs.map((paragraph: string, index: number) => <p key={index}>{paragraph}</p>)
             : article.content}
         </div>
       </div>
