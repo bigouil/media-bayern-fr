@@ -76,12 +76,13 @@ export function SiteHeader() {
 
           {/* Actions */}
           <div className="flex items-center space-x-4">
-            <button
+            <Link
+              href="/recherche"
               className="p-2 hover:text-[#E21C2A] transition-colors"
               aria-label="Rechercher"
             >
               <Search className="h-5 w-5" />
-            </button>
+            </Link>
 
             <ThemeToggle />
 
