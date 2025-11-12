@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "playerName": "Dayot Upamecano",
+    "currentClub": "Bayern Munich",
+    "position": "Défenseur central",
+    "status": "négociation",
+    "description": "En fin de contrat en juin 2026, le défenseur français est en pleine négociation pour une prolongation. Le directeur sportif Christoph Freund se dit 'très optimiste' pour sa prolongation, malgré l'intérêt du Real Madrid et du PSG.",
+    "transferType": "renewal",
+    "fee": null,
+    "probability": 75
+  },
+  {
+    "id": 2,
+    "playerName": "Luis Díaz",
+    "currentClub": "Liverpool",
+    "position": "Ailier gauche",
+    "status": "officiel",
+    "description": "Le Colombien a officiellement rejoint le Bayern Munich en juillet 2025 pour 75M€. Il a signé un contrat de 4 ans jusqu'en 2029. L'ailier vient renforcer l'attaque bavaroise et remplacer le départ de Coman.",
+    "transferType": "incoming",
+    "fee": "75M€",
+    "probability": 100
+  },
+  {
+    "id": 3,
+    "playerName": "Kingsley Coman",
+    "currentClub": "Bayern Munich",
+    "position": "Ailier",
+    "status": "officiel",
+    "description": "L'international français a quitté le Bayern Munich durant l'été 2025 après 10 ans de bons et loyaux services. Son départ a permis de libérer de la masse salariale et de faire venir Luis Díaz.",
+    "transferType": "outgoing",
+    "fee": "Prêt/Transfert",
+    "probability": 100
+  },
+  {
+    "id": 4,
+    "playerName": "Mathys Tel",
+    "currentClub": "Bayern Munich",
+    "position": "Attaquant",
+    "status": "officiel",
+    "description": "Le jeune prodige français a quitté le Bayern durant l'été 2025, probablement pour obtenir plus de temps de jeu. Un départ en prêt ou transfert définitif.",
+    "transferType": "outgoing",
+    "fee": "Non divulgué",
+    "probability": 100
+  },
+  {
+    "id": 5,
+    "playerName": "Ibrahima Konaté",
+    "currentClub": "Liverpool",
+    "position": "Défenseur central",
+    "status": "rumeur",
+    "description": "Le Bayern surveillerait de près le défenseur français de Liverpool comme alternative au cas où Upamecano déciderait de partir. Une piste de secours crédible pour renforcer la défense.",
+    "transferType": "incoming",
+    "fee": "~60M€",
+    "probability": 30
+  },
+  {
+    "id": 6,
+    "playerName": "Franculino Djú",
+    "currentClub": "FC Midtjylland",
+    "position": "Attaquant",
+    "status": "observation",
+    "description": "Le jeune attaquant bissau-guinéen du FC Midtjylland est suivi de près par les recruteurs du Bayern. Des scouts étaient présents lors de ses derniers matchs. Une pépite prometteuse pour l'avenir.",
+    "transferType": "incoming",
+    "fee": "~15-20M€",
+    "probability": 40
+  },
+  {
+    "id": 7,
+    "playerName": "Paul Wanner",
+    "currentClub": "Bayern Munich",
+    "position": "Milieu offensif",
+    "status": "officiel",
+    "description": "Le jeune milieu offensif formé au Bayern a quitté le club durant l'été 2025, en prêt ou transfert, pour continuer sa progression ailleurs avec plus de temps de jeu.",
+    "transferType": "outgoing",
+    "fee": "Prêt/Transfert",
+    "probability": 100
+  },
+  {
+    "id": 8,
+    "playerName": "Harry Kane",
+    "currentClub": "Bayern Munich",
+    "position": "Attaquant",
+    "status": "rumeur",
+    "description": "Selon certaines sources espagnoles, le FC Barcelone préparerait l'après-Lewandowski et ciblerait Harry Kane. Une clause dans son contrat pourrait rendre le transfert possible, mais le Bayern ne souhaite pas le vendre.",
+    "transferType": "outgoing",
+    "fee": "~100M€",
+    "probability": 10
+  },
+  {
+    "id": 9,
+    "playerName": "Manu Koné",
+    "currentClub": "AS Roma",
+    "position": "Milieu de terrain",
+    "status": "rumeur",
+    "description": "Le milieu international français de l'AS Roma serait sur les tablettes du Bayern, mais aussi du PSG. Une bataille s'annonce pour le jeune talent tricolore qui a brillé en Serie A.",
+    "transferType": "incoming",
+    "fee": "~35-40M€",
+    "probability": 25
+  },
+  {
+    "id": 10,
+    "playerName": "Lucas Chevalier",
+    "currentClub": "LOSC",
+    "position": "Gardien",
+    "status": "observation",
+    "description": "Manuel Neuer aurait été impressionné par le gardien lillois lors de la dernière Ligue des Champions. Le Bayern surveille la situation en prévision de la succession de Neuer (39 ans, fin de contrat en 2026).",
+    "transferType": "incoming",
+    "fee": "~30-35M€",
+    "probability": 20
+  }
+]

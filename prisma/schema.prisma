@@ -1,0 +1,103 @@
+// Schéma Prisma pour la base de données des actualités
+// Documentation : https://www.prisma.io/docs
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite" // Commencez avec SQLite, facile à migrer vers PostgreSQL
+  url      = env("DATABASE_URL")
+}
+
+// Modèle pour les articles d'actualité
+model Article {
+  id          String   @id @default(cuid())
+  title       String
+  slug        String   @unique
+  excerpt     String
+  content     String   // Contenu markdown ou HTML
+  coverImage  String?
+  published   Boolean  @default(false)
+  featured    Boolean  @default(false) // Pour mettre en avant sur la homepage
+  views       Int      @default(0)
+
+  // Métadonnées
+  author      String
+  source      String?  // Source de l'article (RSS, manuel, etc.)
+  sourceUrl   String?  // URL source si agrégé
+
+  // Dates
+  publishedAt DateTime @default(now())
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  // Relations
+  category    Category? @relation(fields: [categoryId], references: [id])
+  categoryId  String?
+
+  tags        ArticleTag[]
+
+  @@index([slug])
+  @@index([publishedAt])
+  @@index([published])
+}
+
+// Modèle pour les catégories
+model Category {
+  id          String    @id @default(cuid())
+  name        String    @unique
+  slug        String    @unique
+  description String?
+  color       String    @default("#E21C2A") // Couleur Bayern par défaut
+  icon        String?   // Emoji ou nom d'icône
+
+  articles    Article[]
+
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+
+  @@index([slug])
+}
+
+// Modèle pour les tags
+model Tag {
+  id          String       @id @default(cuid())
+  name        String       @unique
+  slug        String       @unique
+
+  articles    ArticleTag[]
+
+  createdAt   DateTime     @default(now())
+
+  @@index([slug])
+}
+
+// Table de liaison Article-Tag (many-to-many)
+model ArticleTag {
+  article     Article   @relation(fields: [articleId], references: [id], onDelete: Cascade)
+  articleId   String
+
+  tag         Tag       @relation(fields: [tagId], references: [id], onDelete: Cascade)
+  tagId       String
+
+  assignedAt  DateTime  @default(now())
+
+  @@id([articleId, tagId])
+  @@index([articleId])
+  @@index([tagId])
+}
+
+// Modèle pour les sources RSS
+model RSSFeed {
+  id          String   @id @default(cuid())
+  name        String
+  url         String   @unique
+  active      Boolean  @default(true)
+  lastFetch   DateTime?
+
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@index([active])
+}

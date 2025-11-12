@@ -5,13 +5,11 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 First, run the development server:
 
 ```bash
+# port 3001 par défaut
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+# pour changer de port, précisez PORT avant la commande :
+PORT=3002 npm run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
@@ -34,3 +32,17 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## Administration
+
+L’accès au panneau `/admin` est protégé par un login simple. Configurez vos identifiants dans `.env.local` :
+
+```
+ADMIN_USERS=admin@club.fr:motdepasse|editor@club.fr:secret
+ADMIN_SESSION_SECRET=votre-cle-secrete-tres-longue
+```
+
+- Plusieurs admins : ajoutez-les en les séparant avec `|` (format `email:motdepasse`).
+- Rendez-vous sur `/admin/login`, connectez-vous, puis accédez au dashboard pour publier/supprimer les articles.
+- Le bouton “Se déconnecter” invalide la session (cookie `admin_session`).
+- Pour créer un article : cliquez sur “+ Nouvel article” dans le dashboard (`/admin/new`), rédigez, téléversez une miniature et publiez directement depuis l’interface.

@@ -1,0 +1,50 @@
+{
+  "name": "Media Bayern - Actualité FC Bayern Munich",
+  "short_name": "Media Bayern",
+  "description": "Toute l'actualité du FC Bayern Munich : articles, mercato, matchs, compétitions",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#E21C2A",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["sports", "news"],
+  "lang": "fr-FR",
+  "dir": "ltr",
+  "shortcuts": [
+    {
+      "name": "Actualités",
+      "short_name": "Actus",
+      "description": "Dernières actualités du Bayern",
+      "url": "/actualites",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Mercato",
+      "short_name": "Mercato",
+      "description": "Rumeurs et transferts",
+      "url": "/mercato",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Matchs",
+      "short_name": "Matchs",
+      "description": "Calendrier et résultats",
+      "url": "/matchs",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+# robots.txt pour Media Bayern
+
+User-agent: *
+Allow: /
+
+# Pages interdites
+Disallow: /api/
+Disallow: /_next/
+Disallow: /admin/
+
+# Sitemaps
+Sitemap: https://media-bayern.fr/sitemap.xml
+Sitemap: https://media-bayern.fr/api/rss
+
+# Crawl-delay pour éviter surcharge
+Crawl-delay: 1
+
+# Robots spécifiques
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /

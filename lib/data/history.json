@@ -1,0 +1,98 @@
+[
+  {
+    "id": "h1",
+    "year": 1900,
+    "title": "Fondation du FC Bayern München",
+    "description": "Le club est fondé le 27 février 1900 par Franz John. Les couleurs bleu et blanc sont choisies en hommage à la Bavière.",
+    "category": "foundation",
+    "icon": "trophy"
+  },
+  {
+    "id": "h2",
+    "year": 1932,
+    "title": "Premier titre de champion d'Allemagne",
+    "description": "Le Bayern remporte son premier championnat national, battant Eintracht Frankfurt 2-0 en finale.",
+    "category": "trophy",
+    "icon": "trophy"
+  },
+  {
+    "id": "h3",
+    "year": 1967,
+    "title": "Victoire en Coupe d'Allemagne",
+    "description": "Le Bayern remporte la DFB-Pokal, marquant le début d'une ère de succès sous la direction de Udo Lattek.",
+    "category": "trophy",
+    "icon": "trophy"
+  },
+  {
+    "id": "h4",
+    "year": 1974,
+    "title": "Première Ligue des Champions",
+    "description": "Victoire 4-0 en finale replay contre l'Atlético Madrid. Début d'une trilogie historique en C1.",
+    "category": "european",
+    "icon": "star"
+  },
+  {
+    "id": "h5",
+    "year": 1975,
+    "title": "Deuxième Ligue des Champions consécutive",
+    "description": "Le Bayern conserve son titre européen en battant Leeds United 2-0 à Paris.",
+    "category": "european",
+    "icon": "star"
+  },
+  {
+    "id": "h6",
+    "year": 1976,
+    "title": "Triplé européen historique",
+    "description": "Troisième C1 d'affilée avec une victoire 1-0 contre Saint-Étienne. Gerd Müller inscrit le but décisif.",
+    "category": "european",
+    "icon": "star"
+  },
+  {
+    "id": "h7",
+    "year": 1987,
+    "title": "Franz Beckenbauer devient entraîneur",
+    "description": "Le Kaiser revient au club en tant qu'entraîneur et mènera le Bayern à deux titres de champion.",
+    "category": "legend",
+    "icon": "user"
+  },
+  {
+    "id": "h8",
+    "year": 2001,
+    "title": "Quatrième Ligue des Champions",
+    "description": "Victoire aux tirs au but contre Valence à San Siro. Oliver Kahn est élu homme du match.",
+    "category": "european",
+    "icon": "star"
+  },
+  {
+    "id": "h9",
+    "year": 2013,
+    "title": "Le Triplé historique de Jupp Heynckes",
+    "description": "Bundesliga, DFB-Pokal et Ligue des Champions. Le Bayern réalise le triplé sous Heynckes avec une victoire 2-1 contre Dortmund en finale de C1.",
+    "category": "european",
+    "icon": "star"
+  },
+  {
+    "id": "h10",
+    "year": 2020,
+    "title": "Le Sextuplé de Hansi Flick",
+    "description": "Le Bayern remporte les 6 trophées possibles en une année : Bundesliga, DFB-Pokal, Ligue des Champions, Supercoupe d'Europe, Supercoupe d'Allemagne et Coupe du Monde des Clubs.",
+    "category": "european",
+    "icon": "star"
+  },
+  {
+    "id": "h11",
+    "year": 2023,
+    "title": "11e titre de champion consécutif",
+    "description": "Le Bayern établit un record mondial avec 11 championnats nationaux d'affilée.",
+    "category": "trophy",
+    "icon": "trophy"
+  },
+  {
+    "id": "h12",
+    "year": 2024,
+    "title": "Arrivée de Harry Kane et Vincent Kompany",
+    "description": "Harry Kane rejoint le club et bat des records. Vincent Kompany devient entraîneur et révolutionne le jeu.",
+    "category": "legend",
+    "icon": "user"
+  }
+]

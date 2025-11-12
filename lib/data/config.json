@@ -1,0 +1,46 @@
+{
+  "name": "Media Bayern",
+  "description": "Toute l'actualité du FC Bayern Munich : articles, mercato, matchs, compétitions",
+  "url": "https://media-bayern.fr",
+  "ogImage": "/og-image.jpg",
+  "links": {
+    "twitter": "https://twitter.com/fcbayern",
+    "facebook": "https://facebook.com/fcbayern",
+    "instagram": "https://instagram.com/fcbayern"
+  },
+  "navigation": [
+    { "title": "Accueil", "href": "/" },
+    { "title": "Actualités", "href": "/actualites" },
+    { "title": "Mercato", "href": "/mercato" },
+    { "title": "Matchs", "href": "/matchs" },
+    { "title": "Compétitions", "href": "/comps" }
+  ],
+  "footer": {
+    "sections": [
+      {
+        "title": "À propos",
+        "links": [
+          { "title": "Qui sommes-nous ?", "href": "/a-propos" },
+          { "title": "Contact", "href": "/contact" },
+          { "title": "Mentions légales", "href": "/mentions-legales" }
+        ]
+      },
+      {
+        "title": "Contenus",
+        "links": [
+          { "title": "Actualités", "href": "/actualites" },
+          { "title": "Mercato", "href": "/mercato" },
+          { "title": "Matchs", "href": "/matchs" }
+        ]
+      },
+      {
+        "title": "Suivez-nous",
+        "links": [
+          { "title": "Twitter", "href": "https://twitter.com/fcbayern" },
+          { "title": "Facebook", "href": "https://facebook.com/fcbayern" },
+          { "title": "Instagram", "href": "https://instagram.com/fcbayern" }
+        ]
+      }
+    ]
+  }
+}

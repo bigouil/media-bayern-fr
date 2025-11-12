@@ -1,0 +1,1198 @@
+[
+  {
+    "id": "manuel-neuer",
+    "name": "Manuel Neuer",
+    "nation": "GER",
+    "position": "GK",
+    "age": 39,
+    "metrics": {
+      "matches": 9,
+      "starts": 9,
+      "minutes": 810,
+      "nineties": 9
+    },
+    "performance": {
+      "goals": 0,
+      "assists": 0,
+      "goalContrib": 0,
+      "nonPenGoals": 0,
+      "penGoals": 0,
+      "penAttempts": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "expected": {
+      "xg": 0,
+      "npxg": 0,
+      "xag": 0,
+      "npxgPlusXag": 0
+    },
+    "progression": {
+      "progressiveCarries": 0,
+      "progressivePasses": 2,
+      "progressiveReceptions": 0
+    },
+    "per90": {
+      "goals": 0,
+      "assists": 0,
+      "goalContrib": 0,
+      "nonPenGoals": 0,
+      "goalContribMinusPk": 0,
+      "xg": 0,
+      "xag": 0,
+      "xgPlusXag": 0,
+      "npxg": 0,
+      "npxgPlusXag": 0
+    }
+  },
+  {
+    "id": "luis-diaz",
+    "name": "Luis Díaz",
+    "nation": "COL",
+    "position": "FW",
+    "age": 28,
+    "metrics": {
+      "matches": 10,
+      "starts": 9,
+      "minutes": 802,
+      "nineties": 8.9
+    },
+    "performance": {
+      "goals": 6,
+      "assists": 4,
+      "goalContrib": 10,
+      "nonPenGoals": 6,
+      "penGoals": 0,
+      "penAttempts": 0,
+      "yellowCards": 4,
+      "redCards": 0
+    },
+    "expected": {
+      "xg": 5.7,
+      "npxg": 5.7,
+      "xag": 2.1,
+      "npxgPlusXag": 7.8
+    },
+    "progression": {
+      "progressiveCarries": 35,
+      "progressivePasses": 35,
+      "progressiveReceptions": 109
+    },
+    "per90": {
+      "goals": 0.67,
+      "assists": 0.45,
+      "goalContrib": 1.12,
+      "nonPenGoals": 0.67,
+      "goalContribMinusPk": 1.12,
+      "xg": 0.64,
+      "xag": 0.24,
+      "xgPlusXag": 0.88,
+      "npxg": 0.64,
+      "npxgPlusXag": 0.88
+    }
+  },
+  {
+    "id": "harry-kane",
+    "name": "Harry Kane",
+    "nation": "ENG",
+    "position": "FW,MF",
+    "age": 32,
+    "metrics": {
+      "matches": 10,
+      "starts": 9,
+      "minutes": 791,
+      "nineties": 8.8
+    },
+    "performance": {
+      "goals": 13,
+      "assists": 3,
+      "goalContrib": 16,
+      "nonPenGoals": 9,
+      "penGoals": 4,
+      "penAttempts": 4,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "expected": {
+      "xg": 7.1,
+      "npxg": 4,
+      "xag": 3,
+      "npxgPlusXag": 7
+    },
+    "progression": {
+      "progressiveCarries": 10,
+      "progressivePasses": 36,
+      "progressiveReceptions": 38
+    },
+    "per90": {
+      "goals": 1.48,
+      "assists": 0.34,
+      "goalContrib": 1.82,
+      "nonPenGoals": 1.02,
+      "goalContribMinusPk": 1.37,
+      "xg": 0.81,
+      "xag": 0.34,
+      "xgPlusXag": 1.15,
+      "npxg": 0.45,
+      "npxgPlusXag": 0.79
+    }
+  },
+  {
+    "id": "jonathan-tah",
+    "name": "Jonathan Tah",
+    "nation": "GER",
+    "position": "DF",
+    "age": 29,
+    "metrics": {
+      "matches": 9,
+      "starts": 9,
+      "minutes": 787,
+      "nineties": 8.7
+    },
+    "performance": {
+      "goals": 1,
+      "assists": 0,
+      "goalContrib": 1,
+      "nonPenGoals": 1,
+      "penGoals": 0,
+      "penAttempts": 0,
+      "yellowCards": 1,
+      "redCards": 0
+    },
+    "expected": {
+      "xg": 0.2,
+      "npxg": 0.2,
+      "xag": 0.1,
+      "npxgPlusXag": 0.3
+    },
+    "progression": {
+      "progressiveCarries": 5,
+      "progressivePasses": 38,
+      "progressiveReceptions": 1
+    },
+    "per90": {
+      "goals": 0.11,
+      "assists": 0,
+      "goalContrib": 0.11,
+      "nonPenGoals": 0.11,
+      "goalContribMinusPk": 0.11,
+      "xg": 0.02,
+      "xag": 0.01,
+      "xgPlusXag": 0.03,
+      "npxg": 0.02,
+      "npxgPlusXag": 0.03
+    }
+  },
+  {
+    "id": "konrad-laimer",
+    "name": "Konrad Laimer",
+    "nation": "AUT",
+    "position": "DF",
+    "age": 28,
+    "metrics": {
+      "matches": 10,
+      "starts": 9,
+      "minutes": 786,
+      "nineties": 8.7
+    },
+    "performance": {
+      "goals": 1,
+      "assists": 3,
+      "goalContrib": 4,
+      "nonPenGoals": 1,
+      "penGoals": 0,
+      "penAttempts": 0,
+      "yellowCards": 4,
+      "redCards": 0
+    },
+    "expected": {
+      "xg": 1,
+      "npxg": 1,
+      "xag": 2.5,
+      "npxgPlusXag": 3.4
+    },
+    "progression": {
+      "progressiveCarries": 37,
+      "progressivePasses": 64,
+      "progressiveReceptions": 63
+    },
+    "per90": {
+      "goals": 0.11,
+      "assists": 0.34,
+      "goalContrib": 0.46,
+      "nonPenGoals": 0.11,
+      "goalContribMinusPk": 0.46,
+      "xg": 0.11,
+      "xag": 0.28,
+      "xgPlusXag": 0.39,
+      "npxg": 0.11,
+      "npxgPlusXag": 0.39
+    }
+  },
+  {
+    "id": "joshua-kimmich",
+    "name": "Joshua Kimmich",
+    "nation": "GER",
+    "position": "MF",
+    "age": 30,
+    "metrics": {
+      "matches": 10,
+      "starts": 8,
+      "minutes": 779,
+      "nineties": 8.7
+    },
+    "performance": {
+      "goals": 1,
+      "assists": 2,
+      "goalContrib": 3,
+      "nonPenGoals": 1,
+      "penGoals": 0,
+      "penAttempts": 0,
+      "yellowCards": 3,
+      "redCards": 0
+    },
+    "expected": {
+      "xg": 0.9,
+      "npxg": 0.9,
+      "xag": 1.3,
+      "npxgPlusXag": 2.2
+    },
+    "progression": {
+      "progressiveCarries": 11,
+      "progressivePasses": 78,
+      "progressiveReceptions": 19
+    },
+    "per90": {
+      "goals": 0.12,
+      "assists": 0.23,
+      "goalContrib": 0.35,
+      "nonPenGoals": 0.12,
+      "goalContribMinusPk": 0.35,
+      "xg": 0.1,
+      "xag": 0.15,
+      "xgPlusXag": 0.25,
+      "npxg": 0.1,
+      "npxgPlusXag": 0.25
+    }
+  },
+  {
+    "id": "michael-olise",
+    "name": "Michael Olise",
+    "nation": "FRA",
+    "position": "FW",
+    "age": 23,
+    "metrics": {
+      "matches": 10,
+      "starts": 8,
+      "minutes": 768,
+      "nineties": 8.5
+    },
+    "performance": {
+      "goals": 4,
+      "assists": 3,
+      "goalContrib": 7,
+      "nonPenGoals": 4,
+      "penGoals": 0,
+      "penAttempts": 0,
+      "yellowCards": 3,
+      "redCards": 0
+    },
+    "expected": {
+      "xg": 4.7,
+      "npxg": 4.7,
+      "xag": 2.8,
+      "npxgPlusXag": 7.5
+    },
+    "progression": {
+      "progressiveCarries": 43,
+      "progressivePasses": 50,
+      "progressiveReceptions": 100
+    },
+    "per90": {
+      "goals": 0.47,
+      "assists": 0.35,
+      "goalContrib": 0.82,
+      "nonPenGoals": 0.47,
+      "goalContribMinusPk": 0.82,
+      "xg": 0.56,
+      "xag": 0.33,
+      "xgPlusXag": 0.88,
+      "npxg": 0.56,
+      "npxgPlusXag": 0.88
+    }
+  },
+  {
+    "id": "dayot-upamecano",
+    "name": "Dayot Upamecano",
+    "nation": "FRA",
+    "position": "DF",
+    "age": 27,
+    "metrics": {
+      "matches": 9,
+      "starts": 8,
+      "minutes": 652,
+      "nineties": 7.2
+    },
+    "performance": {
+      "goals": 0,
+      "assists": 0,
+      "goalContrib": 0,
+      "nonPenGoals": 0,
+      "penGoals": 0,
+      "penAttempts": 0,
+      "yellowCards": 2,
+      "redCards": 0
+    },
+    "expected": {
+      "xg": 0.3,
+      "npxg": 0.3,
+      "xag": 0.2,
+      "npxgPlusXag": 0.5
+    },
+    "progression": {
+      "progressiveCarries": 5,
+      "progressivePasses": 43,
+      "progressiveReceptions": 0
+    },
+    "per90": {
+      "goals": 0,
+      "assists": 0,
+      "goalContrib": 0,
+      "nonPenGoals": 0,
+      "goalContribMinusPk": 0,
+      "xg": 0.04,
+      "xag": 0.03,
+      "xgPlusXag": 0.07,
+      "npxg": 0.04,
+      "npxgPlusXag": 0.07
+    }
+  },
+  {
+    "id": "leon-goretzka",
+    "name": "Leon Goretzka",
+    "nation": "GER",
+    "position": "MF",
+    "age": 30,
+    "metrics": {
+      "matches": 9,
+      "starts": 8,
+      "minutes": 592,
+      "nineties": 6.6
+    },
+    "performance": {
+      "goals": 0,
+      "assists": 0,
+      "goalContrib": 0,
+      "nonPenGoals": 0,
+      "penGoals": 0,
+      "penAttempts": 0,
+      "yellowCards": 3,
+      "redCards": 0
+    },
+    "expected": {
+      "xg": 0.4,
+      "npxg": 0.4,
+      "xag": 1.1,
+      "npxgPlusXag": 1.5
+    },
+    "progression": {
+      "progressiveCarries": 15,
+      "progressivePasses": 50,
+      "progressiveReceptions": 14
+    },
+    "per90": {
+      "goals": 0,
+      "assists": 0,
+      "goalContrib": 0,
+      "nonPenGoals": 0,
+      "goalContribMinusPk": 0,
+      "xg": 0.07,
+      "xag": 0.16,
+      "xgPlusXag": 0.23,
+      "npxg": 0.07,
+      "npxgPlusXag": 0.23
+    }
+  },
+  {
+    "id": "serge-gnabry",
+    "name": "Serge Gnabry",
+    "nation": "GER",
+    "position": "MF,FW",
+    "age": 30,
+    "metrics": {
+      "matches": 9,
+      "starts": 7,
+      "minutes": 505,
+      "nineties": 5.6
+    },
+    "performance": {
+      "goals": 4,
+      "assists": 3,
+      "goalContrib": 7,
+      "nonPenGoals": 4,
+      "penGoals": 0,
+      "penAttempts": 0,
+      "yellowCards": 1,
+      "redCards": 0
+    },
+    "expected": {
+      "xg": 1.9,
+      "npxg": 1.9,
+      "xag": 1,
+      "npxgPlusXag": 2.9
+    },
+    "progression": {
+      "progressiveCarries": 13,
+      "progressivePasses": 25,
+      "progressiveReceptions": 38
+    },
+    "per90": {
+      "goals": 0.71,
+      "assists": 0.53,
+      "goalContrib": 1.25,
+      "nonPenGoals": 0.71,
+      "goalContribMinusPk": 1.25,
+      "xg": 0.33,
+      "xag": 0.19,
+      "xgPlusXag": 0.52,
+      "npxg": 0.33,
+      "npxgPlusXag": 0.52
+    }
+  },
+  {
+    "id": "sacha-boey",
+    "name": "Sacha Boey",
+    "nation": "FRA",
+    "position": "DF",
+    "age": 25,
+    "metrics": {
+      "matches": 9,
+      "starts": 5,
+      "minutes": 463,
+      "nineties": 5.1
+    },
+    "performance": {
+      "goals": 0,
+      "assists": 0,
+      "goalContrib": 0,
+      "nonPenGoals": 0,
+      "penGoals": 0,
+      "penAttempts": 0,
+      "yellowCards": 1,
+      "redCards": 0
+    },
+    "expected": {
+      "xg": 0.3,
+      "npxg": 0.3,
+      "xag": 0.2,
+      "npxgPlusXag": 0.5
+    },
+    "progression": {
+      "progressiveCarries": 6,
+      "progressivePasses": 22,
+      "progressiveReceptions": 30
+    },
+    "per90": {
+      "goals": 0,
+      "assists": 0,
+      "goalContrib": 0,
+      "nonPenGoals": 0,
+      "goalContribMinusPk": 0,
+      "xg": 0.05,
+      "xag": 0.03,
+      "xgPlusXag": 0.09,
+      "npxg": 0.05,
+      "npxgPlusXag": 0.09
+    }
+  },
+  {
+    "id": "josip-stanisic",
+    "name": "Josip Stanišić",
+    "nation": "CRO",
+    "position": "DF",
+    "age": 25,
+    "metrics": {
+      "matches": 5,
+      "starts": 4,
+      "minutes": 367,
+      "nineties": 4.1
+    },
+    "performance": {
+      "goals": 0,
+      "assists": 1,
+      "goalContrib": 1,
+      "nonPenGoals": 0,
+      "penGoals": 0,
+      "penAttempts": 0,
+      "yellowCards": 1,
+      "redCards": 0
+    },
+    "expected": {
+      "xg": 0.1,
+      "npxg": 0.1,
+      "xag": 0.1,
+      "npxgPlusXag": 0.2
+    },
+    "progression": {
+      "progressiveCarries": 7,
+      "progressivePasses": 18,
+      "progressiveReceptions": 17
+    },
+    "per90": {
+      "goals": 0,
+      "assists": 0.25,
+      "goalContrib": 0.25,
+      "nonPenGoals": 0,
+      "goalContribMinusPk": 0.25,
+      "xg": 0.02,
+      "xag": 0.03,
+      "xgPlusXag": 0.05,
+      "npxg": 0.02,
+      "npxgPlusXag": 0.05
+    }
+  },
+  {
+    "id": "nicolas-jackson",
+    "name": "Nicolas Jackson",
+    "nation": "SEN",
+    "position": "FW",
+    "age": 24,
+    "metrics": {
+      "matches": 8,
+      "starts": 4,
+      "minutes": 304,
+      "nineties": 3.4
+    },
+    "performance": {
+      "goals": 1,
+      "assists": 0,
+      "goalContrib": 1,
+      "nonPenGoals": 1,
+      "penGoals": 0,
+      "penAttempts": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "expected": {
+      "xg": 1.2,
+      "npxg": 1.2,
+      "xag": 1.4,
+      "npxgPlusXag": 2.6
+    },
+    "progression": {
+      "progressiveCarries": 6,
+      "progressivePasses": 11,
+      "progressiveReceptions": 29
+    },
+    "per90": {
+      "goals": 0.3,
+      "assists": 0,
+      "goalContrib": 0.3,
+      "nonPenGoals": 0.3,
+      "goalContribMinusPk": 0.3,
+      "xg": 0.35,
+      "xag": 0.41,
+      "xgPlusXag": 0.77,
+      "npxg": 0.35,
+      "npxgPlusXag": 0.77
+    }
+  },
+  {
+    "id": "aleksandar-pavlovic",
+    "name": "Aleksandar Pavlovic",
+    "nation": "GER",
+    "position": "MF",
+    "age": 21,
+    "metrics": {
+      "matches": 8,
+      "starts": 3,
+      "minutes": 380,
+      "nineties": 4.2
+    },
+    "performance": {
+      "goals": 1,
+      "assists": 0,
+      "goalContrib": 1,
+      "nonPenGoals": 1,
+      "penGoals": 0,
+      "penAttempts": 0,
+      "yellowCards": 1,
+      "redCards": 0
+    },
+    "expected": {
+      "xg": 0.2,
+      "npxg": 0.2,
+      "xag": 0.3,
+      "npxgPlusXag": 0.4
+    },
+    "progression": {
+      "progressiveCarries": 8,
+      "progressivePasses": 21,
+      "progressiveReceptions": 9
+    },
+    "per90": {
+      "goals": 0.24,
+      "assists": 0,
+      "goalContrib": 0.24,
+      "nonPenGoals": 0.24,
+      "goalContribMinusPk": 0.24,
+      "xg": 0.04,
+      "xag": 0.06,
+      "xgPlusXag": 0.1,
+      "npxg": 0.04,
+      "npxgPlusXag": 0.1
+    }
+  },
+  {
+    "id": "tom-bischof",
+    "name": "Tom Bischof",
+    "nation": "GER",
+    "position": "DF,MF",
+    "age": 20,
+    "metrics": {
+      "matches": 8,
+      "starts": 3,
+      "minutes": 314,
+      "nineties": 3.5
+    },
+    "performance": {
+      "goals": 0,
+      "assists": 3,
+      "goalContrib": 3,
+      "nonPenGoals": 0,
+      "penGoals": 0,
+      "penAttempts": 0,
+      "yellowCards": 1,
+      "redCards": 0
+    },
+    "expected": {
+      "xg": 0.5,
+      "npxg": 0.5,
+      "xag": 1.2,
+      "npxgPlusXag": 1.7
+    },
+    "progression": {
+      "progressiveCarries": 10,
+      "progressivePasses": 26,
+      "progressiveReceptions": 20
+    },
+    "per90": {
+      "goals": 0,
+      "assists": 0.86,
+      "goalContrib": 0.86,
+      "nonPenGoals": 0,
+      "goalContribMinusPk": 0.86,
+      "xg": 0.15,
+      "xag": 0.34,
+      "xgPlusXag": 0.48,
+      "npxg": 0.15,
+      "npxgPlusXag": 0.48
+    }
+  },
+  {
+    "id": "kim-min-jae",
+    "name": "Kim Min-jae",
+    "nation": "KOR",
+    "position": "DF",
+    "age": 28,
+    "metrics": {
+      "matches": 5,
+      "starts": 3,
+      "minutes": 272,
+      "nineties": 3
+    },
+    "performance": {
+      "goals": 0,
+      "assists": 1,
+      "goalContrib": 1,
+      "nonPenGoals": 0,
+      "penGoals": 0,
+      "penAttempts": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "expected": {
+      "xg": 0,
+      "npxg": 0,
+      "xag": 0.3,
+      "npxgPlusXag": 0.3
+    },
+    "progression": {
+      "progressiveCarries": 4,
+      "progressivePasses": 14,
+      "progressiveReceptions": 1
+    },
+    "per90": {
+      "goals": 0,
+      "assists": 0.33,
+      "goalContrib": 0.33,
+      "nonPenGoals": 0,
+      "goalContribMinusPk": 0.33,
+      "xg": 0,
+      "xag": 0.09,
+      "xgPlusXag": 0.09,
+      "npxg": 0,
+      "npxgPlusXag": 0.09
+    }
+  },
+  {
+    "id": "lennart-karl",
+    "name": "Lennart Karl",
+    "nation": "GER",
+    "position": "FW,MF",
+    "age": 17,
+    "metrics": {
+      "matches": 8,
+      "starts": 2,
+      "minutes": 231,
+      "nineties": 2.6
+    },
+    "performance": {
+      "goals": 1,
+      "assists": 1,
+      "goalContrib": 2,
+      "nonPenGoals": 1,
+      "penGoals": 0,
+      "penAttempts": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "expected": {
+      "xg": 1.3,
+      "npxg": 1.3,
+      "xag": 0.6,
+      "npxgPlusXag": 1.9
+    },
+    "progression": {
+      "progressiveCarries": 13,
+      "progressivePasses": 15,
+      "progressiveReceptions": 47
+    },
+    "per90": {
+      "goals": 0.39,
+      "assists": 0.39,
+      "goalContrib": 0.78,
+      "nonPenGoals": 0.39,
+      "goalContribMinusPk": 0.78,
+      "xg": 0.52,
+      "xag": 0.24,
+      "xgPlusXag": 0.75,
+      "npxg": 0.52,
+      "npxgPlusXag": 0.75
+    }
+  },
+  {
+    "id": "raphael-guerreiro",
+    "name": "Raphaël Guerreiro",
+    "nation": "POR",
+    "position": "MF,DF",
+    "age": 31,
+    "metrics": {
+      "matches": 6,
+      "starts": 1,
+      "minutes": 195,
+      "nineties": 2.2
+    },
+    "performance": {
+      "goals": 1,
+      "assists": 2,
+      "goalContrib": 3,
+      "nonPenGoals": 1,
+      "penGoals": 0,
+      "penAttempts": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "expected": {
+      "xg": 1,
+      "npxg": 1,
+      "xag": 1,
+      "npxgPlusXag": 2
+    },
+    "progression": {
+      "progressiveCarries": 3,
+      "progressivePasses": 9,
+      "progressiveReceptions": 20
+    },
+    "per90": {
+      "goals": 0.46,
+      "assists": 0.92,
+      "goalContrib": 1.38,
+      "nonPenGoals": 0.46,
+      "goalContribMinusPk": 1.38,
+      "xg": 0.45,
+      "xag": 0.45,
+      "xgPlusXag": 0.9,
+      "npxg": 0.45,
+      "npxgPlusXag": 0.9
+    }
+  },
+  {
+    "id": "jonas-urbig",
+    "name": "Jonas Urbig",
+    "nation": "GER",
+    "position": "GK",
+    "age": 22,
+    "metrics": {
+      "matches": 1,
+      "starts": 1,
+      "minutes": 90,
+      "nineties": 1
+    },
+    "performance": {
+      "goals": 0,
+      "assists": 0,
+      "goalContrib": 0,
+      "nonPenGoals": 0,
+      "penGoals": 0,
+      "penAttempts": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "expected": {
+      "xg": 0,
+      "npxg": 0,
+      "xag": 0,
+      "npxgPlusXag": 0
+    },
+    "progression": {
+      "progressiveCarries": 0,
+      "progressivePasses": 2,
+      "progressiveReceptions": 0
+    },
+    "per90": {
+      "goals": 0,
+      "assists": 0,
+      "goalContrib": 0,
+      "nonPenGoals": 0,
+      "goalContribMinusPk": 0,
+      "xg": 0,
+      "xag": 0,
+      "xgPlusXag": 0,
+      "npxg": 0,
+      "npxgPlusXag": 0
+    }
+  },
+  {
+    "id": "wisdom-mike",
+    "name": "Wisdom Mike",
+    "nation": "GER",
+    "position": "FW",
+    "age": 17,
+    "metrics": {
+      "matches": 1,
+      "starts": 0,
+      "minutes": 7,
+      "nineties": 0.1
+    },
+    "performance": {
+      "goals": 0,
+      "assists": 0,
+      "goalContrib": 0,
+      "nonPenGoals": 0,
+      "penGoals": 0,
+      "penAttempts": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "expected": {
+      "xg": 0.1,
+      "npxg": 0.1,
+      "xag": 0,
+      "npxgPlusXag": 0.1
+    },
+    "progression": {
+      "progressiveCarries": 0,
+      "progressivePasses": 0,
+      "progressiveReceptions": 1
+    },
+    "per90": {
+      "goals": 0,
+      "assists": 0,
+      "goalContrib": 0,
+      "nonPenGoals": 0,
+      "goalContribMinusPk": 0,
+      "xg": 1.17,
+      "xag": 0,
+      "xgPlusXag": 1.17,
+      "npxg": 1.17,
+      "npxgPlusXag": 1.17
+    }
+  },
+  {
+    "id": "jonah-kusi-asare",
+    "name": "Jonah Kusi-Asare",
+    "nation": "SWE",
+    "position": "FW",
+    "age": 18,
+    "metrics": {
+      "matches": 1,
+      "starts": 0,
+      "minutes": 5,
+      "nineties": 0.1
+    },
+    "performance": {
+      "goals": 0,
+      "assists": 0,
+      "goalContrib": 0,
+      "nonPenGoals": 0,
+      "penGoals": 0,
+      "penAttempts": 0,
+      "yellowCards": 0,
+      "redCards": 0
+    },
+    "expected": {
+      "xg": 0,
+      "npxg": 0,
+      "xag": 0,
+      "npxgPlusXag": 0
+    },
+    "progression": {
+      "progressiveCarries": 0,
+      "progressivePasses": 0,
+      "progressiveReceptions": 0
+    },
+    "per90": {
+      "goals": 0,
+      "assists": 0,
+      "goalContrib": 0,
+      "nonPenGoals": 0,
+      "goalContribMinusPk": 0,
+      "xg": 0,
+      "xag": 0,
+      "xgPlusXag": 0,
+      "npxg": 0,
+      "npxgPlusXag": 0
+    }
+  },
+  {
+    "id": "jannis-bartl",
+    "name": "Jannis Bärtl",
+    "nation": "GER",
+    "position": "GK",
+    "age": 19,
+    "metrics": {
+      "matches": 0,
+      "starts": 0,
+      "minutes": 0.0,
+      "nineties": 0.0
+    },
+    "performance": {
+      "goals": 0.0,
+      "assists": 0.0,
+      "goalContrib": 0.0,
+      "nonPenGoals": 0.0,
+      "penGoals": 0.0,
+      "penAttempts": 0.0,
+      "yellowCards": 0.0,
+      "redCards": 0.0
+    },
+    "expected": {
+      "xg": 0.0,
+      "npxg": 0.0,
+      "xag": 0.0,
+      "npxgPlusXag": 0.0
+    },
+    "progression": {
+      "progressiveCarries": 0.0,
+      "progressivePasses": 0.0,
+      "progressiveReceptions": 0.0
+    },
+    "per90": {
+      "goals": 0.0,
+      "assists": 0.0,
+      "goalContrib": 0.0,
+      "nonPenGoals": 0.0,
+      "goalContribMinusPk": 0.0,
+      "xg": 0.0,
+      "xag": 0.0,
+      "xgPlusXag": 0.0,
+      "npxg": 0.0,
+      "npxgPlusXag": 0.0
+    }
+  },
+  {
+    "id": "david-daiber",
+    "name": "David Daiber",
+    "nation": "POR",
+    "position": "FW",
+    "age": 18,
+    "metrics": {
+      "matches": 0,
+      "starts": 0,
+      "minutes": 0.0,
+      "nineties": 0.0
+    },
+    "performance": {
+      "goals": 0.0,
+      "assists": 0.0,
+      "goalContrib": 0.0,
+      "nonPenGoals": 0.0,
+      "penGoals": 0.0,
+      "penAttempts": 0.0,
+      "yellowCards": 0.0,
+      "redCards": 0.0
+    },
+    "expected": {
+      "xg": 0.0,
+      "npxg": 0.0,
+      "xag": 0.0,
+      "npxgPlusXag": 0.0
+    },
+    "progression": {
+      "progressiveCarries": 0.0,
+      "progressivePasses": 0.0,
+      "progressiveReceptions": 0.0
+    },
+    "per90": {
+      "goals": 0.0,
+      "assists": 0.0,
+      "goalContrib": 0.0,
+      "nonPenGoals": 0.0,
+      "goalContribMinusPk": 0.0,
+      "xg": 0.0,
+      "xag": 0.0,
+      "xgPlusXag": 0.0,
+      "npxg": 0.0,
+      "npxgPlusXag": 0.0
+    }
+  },
+  {
+    "id": "cassiano-kiala",
+    "name": "Cassiano Kiala",
+    "nation": "GER",
+    "position": "DF",
+    "age": 16,
+    "metrics": {
+      "matches": 0,
+      "starts": 0,
+      "minutes": 0.0,
+      "nineties": 0.0
+    },
+    "performance": {
+      "goals": 0.0,
+      "assists": 0.0,
+      "goalContrib": 0.0,
+      "nonPenGoals": 0.0,
+      "penGoals": 0.0,
+      "penAttempts": 0.0,
+      "yellowCards": 0.0,
+      "redCards": 0.0
+    },
+    "expected": {
+      "xg": 0.0,
+      "npxg": 0.0,
+      "xag": 0.0,
+      "npxgPlusXag": 0.0
+    },
+    "progression": {
+      "progressiveCarries": 0.0,
+      "progressivePasses": 0.0,
+      "progressiveReceptions": 0.0
+    },
+    "per90": {
+      "goals": 0.0,
+      "assists": 0.0,
+      "goalContrib": 0.0,
+      "nonPenGoals": 0.0,
+      "goalContribMinusPk": 0.0,
+      "xg": 0.0,
+      "xag": 0.0,
+      "xgPlusXag": 0.0,
+      "npxg": 0.0,
+      "npxgPlusXag": 0.0
+    }
+  },
+  {
+    "id": "leon-klanac",
+    "name": "Leon Klanac",
+    "nation": "GER",
+    "position": "GK",
+    "age": 18,
+    "metrics": {
+      "matches": 0,
+      "starts": 0,
+      "minutes": 0.0,
+      "nineties": 0.0
+    },
+    "performance": {
+      "goals": 0.0,
+      "assists": 0.0,
+      "goalContrib": 0.0,
+      "nonPenGoals": 0.0,
+      "penGoals": 0.0,
+      "penAttempts": 0.0,
+      "yellowCards": 0.0,
+      "redCards": 0.0
+    },
+    "expected": {
+      "xg": 0.0,
+      "npxg": 0.0,
+      "xag": 0.0,
+      "npxgPlusXag": 0.0
+    },
+    "progression": {
+      "progressiveCarries": 0.0,
+      "progressivePasses": 0.0,
+      "progressiveReceptions": 0.0
+    },
+    "per90": {
+      "goals": 0.0,
+      "assists": 0.0,
+      "goalContrib": 0.0,
+      "nonPenGoals": 0.0,
+      "goalContribMinusPk": 0.0,
+      "xg": 0.0,
+      "xag": 0.0,
+      "xgPlusXag": 0.0,
+      "npxg": 0.0,
+      "npxgPlusXag": 0.0
+    }
+  },
+  {
+    "id": "sven-ulreich",
+    "name": "Sven Ulreich",
+    "nation": "GER",
+    "position": "GK",
+    "age": 37,
+    "metrics": {
+      "matches": 0,
+      "starts": 0,
+      "minutes": 0.0,
+      "nineties": 0.0
+    },
+    "performance": {
+      "goals": 0.0,
+      "assists": 0.0,
+      "goalContrib": 0.0,
+      "nonPenGoals": 0.0,
+      "penGoals": 0.0,
+      "penAttempts": 0.0,
+      "yellowCards": 0.0,
+      "redCards": 0.0
+    },
+    "expected": {
+      "xg": 0.0,
+      "npxg": 0.0,
+      "xag": 0.0,
+      "npxgPlusXag": 0.0
+    },
+    "progression": {
+      "progressiveCarries": 0.0,
+      "progressivePasses": 0.0,
+      "progressiveReceptions": 0.0
+    },
+    "per90": {
+      "goals": 0.0,
+      "assists": 0.0,
+      "goalContrib": 0.0,
+      "nonPenGoals": 0.0,
+      "goalContribMinusPk": 0.0,
+      "xg": 0.0,
+      "xag": 0.0,
+      "xgPlusXag": 0.0,
+      "npxg": 0.0,
+      "npxgPlusXag": 0.0
+    }
+  }
+]

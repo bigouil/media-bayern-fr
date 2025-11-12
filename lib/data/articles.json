@@ -1,0 +1,162 @@
+[
+  {
+    "id": "1",
+    "slug": "kane-hat-trick-historique",
+    "title": "Harry Kane réalise un triplé historique contre Dortmund",
+    "excerpt": "L'attaquant anglais inscrit trois buts décisifs lors du Der Klassiker et entre dans l'histoire du Bayern Munich.",
+    "coverImage": "/images/kane-celebration.jpg",
+    "date": "2025-11-09",
+    "author": {
+      "name": "Thomas Müller",
+      "avatar": "/avatars/thomas.jpg"
+    },
+    "category": "actualites",
+    "tags": ["Harry Kane", "Bundesliga", "Der Klassiker"],
+    "readTime": 4,
+    "featured": true
+  },
+  {
+    "id": "2",
+    "slug": "musiala-nouveau-contrat",
+    "title": "Jamal Musiala prolonge et devient le joueur le mieux payé",
+    "excerpt": "Le prodige allemand a signé un nouveau contrat record jusqu'en 2029, repoussant les avances de Manchester City et du Real Madrid.",
+    "coverImage": "/images/musiala-contract.jpg",
+    "date": "2025-11-08",
+    "author": {
+      "name": "Marc Dubois",
+      "avatar": "/avatars/marc.jpg"
+    },
+    "category": "mercato",
+    "tags": ["Jamal Musiala", "Contrat", "Mercato"],
+    "readTime": 5,
+    "featured": true
+  },
+  {
+    "id": "3",
+    "slug": "kompany-tactique-innovante",
+    "title": "Vincent Kompany révolutionne le jeu du Bayern",
+    "excerpt": "Le technicien belge impose sa patte tactique avec un pressing ultra-haut qui terrorise la Bundesliga.",
+    "coverImage": "/images/kompany-tactics.jpg",
+    "date": "2025-11-07",
+    "author": {
+      "name": "Sophie Laurent",
+      "avatar": "/avatars/sophie.jpg"
+    },
+    "category": "actualites",
+    "tags": ["Vincent Kompany", "Tactique", "Entraîneur"],
+    "readTime": 6,
+    "featured": false
+  },
+  {
+    "id": "4",
+    "slug": "neuer-record-clean-sheets",
+    "title": "Manuel Neuer bat le record de clean sheets en Bundesliga",
+    "excerpt": "Le capitaine du Bayern atteint les 230 matchs sans encaisser de but et entre dans la légende.",
+    "coverImage": "/images/neuer-record.jpg",
+    "date": "2025-11-06",
+    "author": {
+      "name": "Julia Schmidt",
+      "avatar": "/avatars/julia.jpg"
+    },
+    "category": "actualites",
+    "tags": ["Manuel Neuer", "Record", "Bundesliga"],
+    "readTime": 3,
+    "featured": false
+  },
+  {
+    "id": "5",
+    "slug": "davies-prolongation-surprise",
+    "title": "Alphonso Davies prolonge finalement jusqu'en 2028",
+    "excerpt": "Contre toute attente, le latéral canadien a décidé de rester au Bayern et de repousser le Real Madrid.",
+    "coverImage": "/images/davies-renewal.jpg",
+    "date": "2025-11-05",
+    "author": {
+      "name": "Pierre Martin",
+      "avatar": "/avatars/pierre.jpg"
+    },
+    "category": "mercato",
+    "tags": ["Alphonso Davies", "Prolongation", "Real Madrid"],
+    "readTime": 4,
+    "featured": false
+  },
+  {
+    "id": "6",
+    "slug": "youth-academy-talents-2025",
+    "title": "Paul Wanner fait ses débuts en Bundesliga",
+    "excerpt": "Le jeune prodige de 19 ans a marqué dès sa première titularisation face à Hoffenheim.",
+    "coverImage": "/images/wanner-debut.jpg",
+    "date": "2025-11-04",
+    "author": {
+      "name": "Emma Wagner",
+      "avatar": "/avatars/emma.jpg"
+    },
+    "category": "actualites",
+    "tags": ["Paul Wanner", "Jeunes", "Académie"],
+    "readTime": 5,
+    "featured": false
+  },
+  {
+    "id": "7",
+    "slug": "allianz-arena-capacite",
+    "title": "L'Allianz Arena atteint des records d'affluence",
+    "excerpt": "Avec une moyenne de 75 000 spectateurs par match, le stade bavarois affiche complet à chaque rencontre.",
+    "coverImage": "/images/allianz-arena.jpg",
+    "date": "2025-11-03",
+    "author": {
+      "name": "Klaus Hoffmann",
+      "avatar": "/avatars/klaus.jpg"
+    },
+    "category": "actualites",
+    "tags": ["Stade", "Affluence", "Supporters"],
+    "readTime": 4,
+    "featured": false
+  },
+  {
+    "id": "8",
+    "slug": "kimmich-capitaine-legendaire",
+    "title": "Joshua Kimmich : un capitaine dans la lignée de Lahm",
+    "excerpt": "Le milieu de terrain allemand s'impose comme un leader naturel et un exemple pour toute l'équipe.",
+    "coverImage": "/images/kimmich-captain.jpg",
+    "date": "2025-11-02",
+    "author": {
+      "name": "Sophie Laurent",
+      "avatar": "/avatars/sophie.jpg"
+    },
+    "category": "actualites",
+    "tags": ["Joshua Kimmich", "Capitaine", "Leadership"],
+    "readTime": 5,
+    "featured": false
+  },
+  {
+    "id": "9",
+    "slug": "bayern-psg-ldc-preview",
+    "title": "Bayern-PSG : l'analyse tactique du choc de Ligue des Champions",
+    "excerpt": "Décryptage des forces en présence avant le match décisif de phase de poules. Kompany face à Luis Enrique.",
+    "coverImage": "/images/bayern-psg-preview.jpg",
+    "date": "2025-11-01",
+    "author": {
+      "name": "Marc Dubois",
+      "avatar": "/avatars/marc.jpg"
+    },
+    "category": "competitions",
+    "tags": ["Ligue des Champions", "PSG", "Tactique"],
+    "readTime": 7,
+    "featured": true
+  },
+  {
+    "id": "10",
+    "slug": "tel-explosion-saison",
+    "title": "Mathys Tel : 15 buts en 18 matchs, l'explosion tant attendue",
+    "excerpt": "À 19 ans, l'attaquant français réalise la meilleure saison de sa carrière et affole les compteurs.",
+    "coverImage": "/images/tel-goals.jpg",
+    "date": "2025-10-31",
+    "author": {
+      "name": "Emma Wagner",
+      "avatar": "/avatars/emma.jpg"
+    },
+    "category": "actualites",
+    "tags": ["Mathys Tel", "Buts", "Jeune talent"],
+    "readTime": 5,
+    "featured": false
+  }
+]

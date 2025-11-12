@@ -1,0 +1,106 @@
+[
+  {
+    "id": "comp1",
+    "name": "Bundesliga",
+    "season": "2024-2025",
+    "logo": "/logos/bundesliga.png",
+    "bayernPosition": 1,
+    "bayernPoints": 27,
+    "bayernMatches": 10,
+    "bayernWins": 9,
+    "bayernDraws": 0,
+    "bayernLosses": 1,
+    "nextMatch": {
+      "opponent": "VfB Stuttgart",
+      "date": "2025-11-16T15:30:00Z",
+      "home": false
+    },
+    "topScorer": {
+      "name": "Harry Kane",
+      "goals": 14
+    },
+    "status": "en_cours"
+  },
+  {
+    "id": "comp2",
+    "name": "Ligue des Champions",
+    "season": "2024-2025",
+    "logo": "/logos/ucl.png",
+    "bayernStage": "Phase de groupes (5 matchs, 4 victoires)",
+    "nextMatch": {
+      "opponent": "FC Barcelona",
+      "date": "2025-11-26T21:00:00Z",
+      "home": false
+    },
+    "topScorer": {
+      "name": "Harry Kane",
+      "goals": 6
+    },
+    "status": "en_cours"
+  },
+  {
+    "id": "comp3",
+    "name": "DFB-Pokal",
+    "season": "2024-2025",
+    "logo": "/logos/dfb-pokal.png",
+    "bayernStage": "Huitièmes de finale",
+    "nextMatch": {
+      "opponent": "Bayer Leverkusen",
+      "date": "2025-12-18T20:45:00Z",
+      "home": true
+    },
+    "status": "en_cours"
+  },
+  {
+    "id": "comp4",
+    "name": "Supercoupe d'Allemagne",
+    "season": "2024",
+    "logo": "/logos/supercup.png",
+    "result": "Victoire 3-0 vs RB Leipzig",
+    "date": "2024-08-17",
+    "status": "termine"
+  },
+  {
+    "id": "comp5",
+    "name": "UEFA Super Cup",
+    "season": "2024",
+    "logo": "/logos/uefa-super-cup.png",
+    "result": "Défaite 1-2 vs Real Madrid",
+    "date": "2024-08-14",
+    "status": "termine"
+  },
+  {
+    "id": "comp6",
+    "name": "Bundesliga",
+    "season": "2023-2024",
+    "logo": "/logos/bundesliga.png",
+    "result": "Champion (12e titre consécutif)",
+    "bayernPoints": 79,
+    "topScorer": {
+      "name": "Harry Kane",
+      "goals": 36
+    },
+    "status": "termine"
+  },
+  {
+    "id": "comp7",
+    "name": "Ligue des Champions",
+    "season": "2023-2024",
+    "logo": "/logos/ucl.png",
+    "result": "Demi-finales (élimination vs Real Madrid)",
+    "topScorer": {
+      "name": "Harry Kane",
+      "goals": 12
+    },
+    "status": "termine"
+  },
+  {
+    "id": "comp8",
+    "name": "Coupe du Monde des Clubs",
+    "season": "2025",
+    "logo": "/logos/cwc.png",
+    "status": "qualifie",
+    "location": "États-Unis",
+    "description": "Le Bayern est qualifié pour la nouvelle Coupe du Monde des Clubs qui se tiendra en juin-juillet 2025 aux États-Unis."
+  }
+]
