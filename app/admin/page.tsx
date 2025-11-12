@@ -172,13 +172,6 @@ export default function AdminPage() {
             >
               Se déconnecter
             </button>
-            <button
-              onClick={syncRSS}
-              disabled={syncing}
-              className="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 disabled:opacity-50"
-            >
-              {syncing ? 'Synchronisation...' : '📡 Sync RSS'}
-            </button>
             <Link
               href="/"
               className="px-4 py-2 bg-gray-600 text-white rounded hover:bg-gray-700"
