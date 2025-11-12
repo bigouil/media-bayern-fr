@@ -2,6 +2,7 @@ import { NextResponse } from "next/server";
 import { promises as fs } from "fs";
 import path from "path";
 import crypto from "crypto";
+import { uploadsRoot } from "@/lib/uploads";
 
 export async function POST(request: Request) {
   try {
@@ -19,9 +20,8 @@ export async function POST(request: Request) {
     const buffer = Buffer.from(arrayBuffer);
     const extension = path.extname(file.name) || ".jpg";
     const filename = `${Date.now()}-${crypto.randomUUID()}${extension}`;
-    const uploadDir = path.join(process.cwd(), "public", "uploads");
-    await fs.mkdir(uploadDir, { recursive: true });
-    await fs.writeFile(path.join(uploadDir, filename), buffer);
+    await fs.mkdir(uploadsRoot, { recursive: true });
+    await fs.writeFile(path.join(uploadsRoot, filename), buffer);
 
     return NextResponse.json({
       success: true,

@@ -28,7 +28,21 @@ interface ArticleSummary {
   category?: CategorySummary | null;
   tags?: Array<{ name: string; slug: string }>;
 }
- 
+
+type LegacyArticle = {
+  id?: string;
+  slug?: string;
+  title?: string;
+  excerpt?: string;
+  coverImage?: string;
+  date?: string;
+  author?: string | { name?: string };
+  category?: string;
+  tags?: Array<string | { name?: string }>;
+  featured?: boolean;
+  views?: number;
+};
+
 export const metadata = {
   title: "Actualités",
   description: "Toutes les actualités du FC Bayern Munich en temps réel",
@@ -60,7 +74,8 @@ async function getArticles(baseUrl: string) {
     console.error('Error fetching articles:', error);
     // Fallback vers les données locales en cas d'erreur
     const articlesData = await import('@/lib/data/articles.json');
-    return (articlesData.default ?? []).map((article: any, index: number) => {
+    const legacyArticles = (articlesData.default ?? []) as LegacyArticle[];
+    return legacyArticles.map((article, index: number) => {
       const authorName =
         typeof article.author === "string"
           ? article.author
@@ -90,7 +105,7 @@ async function getArticles(baseUrl: string) {
               articlesCount: undefined,
             }
           : null,
-        tags: (article.tags ?? []).slice(0, 5).map((tag: any, tagIndex: number) => {
+        tags: (article.tags ?? []).slice(0, 5).map((tag, tagIndex: number) => {
           const tagName = typeof tag === "string" ? tag : tag?.name ?? `Tag ${tagIndex + 1}`;
           return {
             name: tagName,
@@ -262,9 +277,11 @@ export default async function ActualitesPage() {
                 <div className="flex justify-between items-center text-xs text-gray-500 dark:text-gray-500">
                   <div className="flex items-center gap-3">
                     <span>
-                      {new Date(article.publishedAt || article.date).toLocaleDateString("fr-FR")}
+                      {article.publishedAt || article.date
+                        ? new Date(article.publishedAt || article.date!).toLocaleDateString("fr-FR")
+                        : "Récemment"}
                     </span>
-                    {article.views > 0 && (
+                    {(article.views ?? 0) > 0 && (
                       <span className="flex items-center gap-1">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -285,9 +302,7 @@ export default async function ActualitesPage() {
                     )}
                   </div>
                   <span className="text-gray-400">
-                    {typeof article.author === "string"
-                      ? article.author
-                      : article.author?.name ?? "Rédaction Media Bayern"}
+                    {article.author}
                   </span>
                 </div>
               </div>
