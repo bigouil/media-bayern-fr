@@ -17,6 +17,7 @@ interface ApiArticle {
   content: string;
   coverImage?: string | null;
   author: string;
+  publishedAt?: string;
   category?: { slug: string } | null;
   tags?: Array<{ name: string }>;
   published?: boolean;
