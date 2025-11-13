@@ -23,6 +23,7 @@ export default function AdminNewArticlePage() {
   const [tags, setTags] = useState("");
   const [published, setPublished] = useState(false);
   const [featured, setFeatured] = useState(false);
+  const [publishedAt, setPublishedAt] = useState(() => new Date().toISOString().slice(0, 16));
   const [author, setAuthor] = useState("Rédaction Media Bayern");
   const [categories, setCategories] = useState<Category[]>([]);
   const [loading, setLoading] = useState(false);
@@ -131,6 +132,7 @@ export default function AdminNewArticlePage() {
           tags: tagsArray,
           published,
           featured,
+          publishedAt: publishedAt ? new Date(publishedAt).toISOString() : undefined,
         }),
       });
 
@@ -241,6 +243,14 @@ export default function AdminNewArticlePage() {
           </div>
 
           <div className="space-y-3">
+            <label className="block text-sm font-medium">Date de publication</label>
+            <input
+              type="datetime-local"
+              value={publishedAt}
+              onChange={(event) => setPublishedAt(event.target.value)}
+              className="w-full rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 px-4 py-2 focus:outline-none focus:ring-2 focus:ring-[#E21C2A]"
+            />
+
             <label className="block text-sm font-medium">Auteur</label>
             <input
               type="text"

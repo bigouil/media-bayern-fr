@@ -107,6 +107,7 @@ export async function PUT(
       tags,
       published,
       featured,
+      publishedAt,
     } = body;
 
     // Vérifier si l'article existe
@@ -139,6 +140,10 @@ export async function PUT(
       : featuredProvided
         ? featured
         : existingArticle.featured;
+    const publishDate =
+      typeof publishedAt === 'string' && publishedAt.length > 0
+        ? new Date(publishedAt)
+        : undefined;
 
     // Mettre à jour l'article
     const updatedArticle = await prisma.article.update({
@@ -153,6 +158,7 @@ export async function PUT(
         published: nextPublished,
         featured: nextFeatured,
         categoryId,
+        publishedAt: publishDate ?? existingArticle.publishedAt,
       },
       include: {
         category: true,

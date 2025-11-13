@@ -48,6 +48,7 @@ export default function AdminEditArticlePage() {
   const [tags, setTags] = useState("");
   const [published, setPublished] = useState(false);
   const [featured, setFeatured] = useState(false);
+  const [publishedAt, setPublishedAt] = useState(() => new Date().toISOString().slice(0, 16));
   const [author, setAuthor] = useState("Rédaction Media Bayern");
   const [categories, setCategories] = useState<Category[]>([]);
 
@@ -107,6 +108,11 @@ export default function AdminEditArticlePage() {
         setTags((article.tags ?? []).map((tag) => tag.name).join(", "));
         setPublished(Boolean(article.published));
         setFeatured(Boolean(article.featured));
+        setPublishedAt(
+          article.publishedAt
+            ? new Date(article.publishedAt).toISOString().slice(0, 16)
+            : new Date().toISOString().slice(0, 16)
+        );
         setAuthor(typeof article.author === "string" ? article.author : "Rédaction Media Bayern");
       } catch (error) {
         console.error("Erreur lors du chargement de l'article:", error);
@@ -196,6 +202,7 @@ export default function AdminEditArticlePage() {
         tags: tagsArray,
         published,
         featured,
+        publishedAt: publishedAt ? new Date(publishedAt).toISOString() : undefined,
       };
 
       if (normalizedSlug && normalizedSlug !== originalSlug) {
@@ -345,6 +352,14 @@ export default function AdminEditArticlePage() {
           </div>
 
           <div className="space-y-3">
+            <label className="block text-sm font-medium">Date de publication</label>
+            <input
+              type="datetime-local"
+              value={publishedAt}
+              onChange={(event) => setPublishedAt(event.target.value)}
+              className="w-full rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 px-4 py-2 focus:outline-none focus:ring-2 focus:ring-[#E21C2A]"
+            />
+
             <label className="block text-sm font-medium">Auteur</label>
             <input
               type="text"

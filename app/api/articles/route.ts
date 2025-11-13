@@ -152,10 +152,12 @@ export async function POST(request: Request) {
       tags,
       published = false,
       featured = false,
+      publishedAt,
     } = body;
 
     const isPublished = Boolean(published);
     const shouldFeature = isPublished ? true : Boolean(featured);
+    const publishDate = publishedAt ? new Date(publishedAt) : undefined;
 
     // Validation basique
     if (!title || !slug || !content) {
@@ -198,6 +200,7 @@ export async function POST(request: Request) {
         published: isPublished,
         featured: shouldFeature,
         categoryId,
+        publishedAt: publishDate,
       },
       include: {
         category: true,
