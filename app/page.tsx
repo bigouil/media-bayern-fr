@@ -177,13 +177,6 @@ export default async function HomePage() {
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Link
-            href="/actualites"
-            className="inline-block px-8 py-4 rounded-lg font-semibold transition-colors"
-            style={{ backgroundColor: "#E21C2A", color: "white" }}
-          >
-            Dernières actualités
-          </Link>
-          <Link
             href="/matchs"
             className="inline-block px-8 py-4 border-2 rounded-lg font-semibold hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
           >

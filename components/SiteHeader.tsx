@@ -9,7 +9,6 @@ import { ThemeToggle } from "./ThemeToggle";
 
 const navigation = [
   { title: "Accueil", href: "/" },
-  { title: "Actualités", href: "/actualites" },
   { title: "Mercato", href: "/mercato" },
   { title: "Matchs", href: "/matchs" },
   { title: "Joueurs", href: "/joueurs" },

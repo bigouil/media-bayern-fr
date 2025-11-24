@@ -16,7 +16,6 @@ const footerSections = [
   {
     title: "Contenus",
     links: [
-      { title: "Actualités", href: "/actualites" },
       { title: "Mercato", href: "/mercato" },
       { title: "Matchs", href: "/matchs" },
       { title: "Compétitions", href: "/comps" },
